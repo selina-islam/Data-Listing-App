@@ -11,7 +11,7 @@ A modern, responsive web application for browsing a curated list of Acer laptops
 
 ## Demo
 
-![Acer Laptop Listings Screenshot](public/AcerAspire5.jpeg)
+![Acer Laptop Listings Screenshot](![ Acer Laptop Listings](image.png))
 
 ## Getting Started
 
