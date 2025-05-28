@@ -22,7 +22,7 @@ const acerLaptops = [
     name: "Acer Nitro 5",
     description: "Gaming Laptop, Intel i7, 16GB RAM, RTX 3050.",
     price: 899,
-    image: '/AcerNitro5.jpeg', 
+    image: "/AcerNitro5.jpeg",
   },
   {
     id: 4,
@@ -38,7 +38,6 @@ function App() {
   return (
     // Full-screen container with padding and light gray background
     <div className="min-h-screen bg-gray-100 p-6">
-
       {/* Page title */}
       <h1 className="text-3xl font-bold text-center text-blue-700 mb-6">
         🔰 Acer Laptop Listings
@@ -46,12 +45,10 @@ function App() {
 
       {/* Grid layout for displaying products, responsive for different screen sizes */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-
         {/* Loop through the acerLaptops array and render a ProductCard for each item */}
         {acerLaptops.map((laptop) => (
           <ProductCard key={laptop.id} product={laptop} />
         ))}
-
       </div>
     </div>
   );
